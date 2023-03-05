@@ -3,7 +3,6 @@ from firebase_admin import db
 from firebase_admin import credentials
 
 print(firebase_admin)
-"""
 # Initialize the Firebase app with your credentials
 cred = credentials.Certificate('inshortsnewsapk-7faf16b82547.json')
 firebase_admin.initialize_app(cred, {
@@ -19,4 +18,3 @@ ref.update({
     'key2': 'value2',
     'key3': 'value3'
 })
-"""
