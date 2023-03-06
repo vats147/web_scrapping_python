@@ -10,7 +10,7 @@ firebase_admin.initialize_app(cred, {
 })
 
 # Get a reference to the Firebase Realtime Database
-ref = db.reference('https://inshortsnewsapk-default-rtdb.europe-west1.firebasedatabase.app')
+ref = db.reference('inshortsnewsapk-default-rtdb.europe-west1.firebasedatabase.app')
 
 # Add data to the database as key-value pairs
 ref.update({
